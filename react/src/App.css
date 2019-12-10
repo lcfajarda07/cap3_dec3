@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+#card{
+  height: 350px;
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 100px;
+  float:left;
+
+}
+#index{
+  background: url(/images/singer.jpg);
+  background-size: cover;
+  background-position: fixed;
+  height:1000px;
+}
+
+#proj{
+  height:450px;
+  width:330px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-left:70px;
+   float:left;
+}
+#proj1{
+  height:350px;
+  width:430px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: 0px;
+  margin-left:60px;
+   float:left;
+}
+.dj{
+/*  background: url(/images/dj.jpg);*/
+  background-size: cover;
+  background-position: center;
+/*  height: 1000px;*/
+/*  background-position:cover;*/
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#nav{
+ 
+  background-color: #333;
+  height:100px;
+
+ /* Set the navbar to fixed position */
+  /* Position the navbar at the top of the page */
+
+}
+#col{
+  border-radius: 5px;
+  background-color: white;
+  height: 500px;
+  margin-top: 50px;
+  margin-right:50px;
+
+ 
+}
+#col1{
+  border-radius: 100px;
+  background-color: white;
+   margin-top: 50px;
+   
+}
+#contain{
+  margin-top: 50px;
+}
+#contcol{
+
+}
+#wood{
+   background: url(/images/mic.jpg);
+  background-size: cover;
+
+}
+
+#sign{
+  margin-top: 20px;
+  margin-left: 180px;
+  color: white;
+}
+
+#lcf{
+font-family: 'Roboto Mono', monospace;
+
+}
+
+img {
+    margin: auto;
+}
+
+#form{
+  margin-top: 20px;
+}
+#projbook{
+  margin-top: 60px;
+  margin-left: 70px;
+}
+#colform{
+  background-color: grey; 
+}
+#create{
+  margin-left: 730px;
+  width: 200px;
+}
+#creates{
+  margin-left: 740px;
+  width: 200px;
+}
+
+
+.fadedfx {
+  background-color: #fe5652;
+  visibility: hidden;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-animation-duration: 1.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#hcard{
+  margin-top: 100px;
+  margin-left: 170px;
+
+}
+
+.cardimg{
+  height: 1700px;
+}
+
+#loginform{
+  margin-top: 30px;
+}
+#book{
+  margin-top: 20px;
+}
+#dash{
+  margin-top: 60px;
+  height: 570px;
+  width: 300px;
+}
+#footer{
+  margin-top: 200px;
+  
+  color:white;
+
+}
+#imgloc{
+  height: 100px;
+  width: 200px;
+}
+#imgsingers{
+  height:300px;
+}
+
+#footer1{
+    background-color: #333;
+    color:white;
+
+}
+#car{
+  margin-bottom: 0px;
+  height:780px;
+}
+.sing{
+  height: 790px;
+  width: 1900px;
+}
